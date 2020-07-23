@@ -1,0 +1,223 @@
+::selection {
+  color: #fff;
+  background: #26907a;
+}
+body {
+	width: 100% ;
+	height: 100%;
+  margin: 0;
+  padding: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+@media (max-width: 770px) {
+	.heading{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	}
+}
+@media (min-width: 770px) {
+	.heading{
+	width:100%;
+	height:40vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	} 
+}
+.jumbotron {
+  width: 100%;
+  height: 50vh;
+  background-image: url(img/index.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.heading h1{
+  color: #555;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Segoe UI';
+  text-transform: uppercase;
+  padding-bottom: 15px; 
+  position: relative;
+}
+.heading h1:before {
+  content: '';
+  position: absolute;
+  background: #26907a;
+  width: 70px;
+  height: 3px;
+  left: calc(50% - 35px);
+  bottom: 0;
+}
+.heading p{
+  color: #7c7c7c;
+  font-size: 15px;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+.heading a {
+  text-decoration: none;
+  width: 10px !important;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.btn {
+  display: block;
+  margin: 10px auto;
+}
+.btn-hidayat {
+  width: 100px;
+  color: #26907a;
+  font-size: 13px;
+  background: transparent;
+  border:2px solid #26907a;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  transition:.5s all;
+  user-select: none;
+}
+.btn-hidayat:hover {
+  color: #26907a;
+  background: transparent;
+  border:2px solid #26907a;
+  box-shadow: 0 3px 2px 0 #26907a;
+}
+.btn-hidayat:focus {
+  color: #26907a;
+  background: transparent;
+  border-color: #26907a;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+  /* -------------------- */
+  /*      CSS ABOUT       */
+
+  .jumbotron-about {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* -------------------- */
+  /*      CSS CONTACT       */
+
+  .jumbotron-contact {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/telepone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* -------------------- */
+  /*      CSS VIDEO       */
+  .jumbotron-video {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/video.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* -------------------- */
+  /*      CSS OTHER       */
+
+  @media (max-width: 770px) {
+  	.heading-other{
+  	width: 100%;
+  	height: auto;
+  	text-align: center;
+  	}
+  	.heading-other video {
+  	width: 330px;
+  	border-radius: 5px;
+  	}
+  }
+  @media (min-width: 770px) {
+  	.heading-other{
+  	width:100%;
+  	height:40vh;
+  	display:flex;
+  	justify-content:center;
+  	align-items:center;
+  	text-align:center;
+  	}
+  	
+  	.heading-other video {
+  	width: 600px;
+  	border-radius: 5px;
+  	}
+  }
+
+  .heading-other h1{
+    color: #555;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    padding-bottom: 15px; 
+    position: relative;
+  }
+  .heading-other h1:before {
+    content: '';
+    position: absolute;
+    background: #26907a;
+    width: 70px;
+    height: 3px;
+    left: calc(50% - 35px);
+    bottom: 0;
+  }
+  .heading-other p{
+    color: #7c7c7c;
+    font-size: 15px;
+    margin: 10px;
+    text-transform: capitalize;
+    text-align: left;
+  }
+  .heading-other a {
+    color: #7c7c7c;
+    text-transform: none;
+    transition: 1s;
+  }
+  .btn-other {
+    display: block;
+    margin: 20px auto 10px auto;
+  }
+  .btn-hidayat-other {
+    width: 100px;
+    color: #26907a;
+    font-size: 13px;
+    background: transparent;
+    border:2px solid #26907a;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    transition:.5s all;
+    user-select: none;
+  }
+  .btn-hidayat-other:hover {
+    color: #26907a;
+    background: transparent;
+    border:2px solid #26907a;
+    box-shadow: 0 3px 2px 0 #26907a;
+  }
+  .btn-hidayat-other:focus {
+    color: #26907a;
+    background: transparent;
+    border-color: #26907a;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
